@@ -170,6 +170,7 @@ public class Person {
 		System.out.println("Weight: " + this.weight);
 		System.out.println("Height: " + this.height);
 		System.out.println("Emplid: " + this.emplid);
+		System.out.println();
 	}
 	
 	

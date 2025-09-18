@@ -18,8 +18,24 @@ public class PersonListDriver {
 		list.add("Wonderwoman", 30, 5.2);
 		list.add("Mary", 31, 5.2);
 		
-		System.out.println(list.isEmpty());
-		System.out.println(list.size());
+		Person p6 = new Person("Bedford Jerome", 100, 5.5);
+		
+		Person p7 = new Person("Eat Food", 50, 5.5);
+		
+		list.add(p6, 0);
+		
+		list.addFront(p7);
+		list.get(1).display();
+		
+		
+		Person p15 = new Person("Lady Liberty", 50, 5.5);
+		list.replace(p15, 0).display();
+		
+		
+		list.get(0).display();
+		
+		//System.out.println(list.isEmpty());
+		//System.out.println(list.size());
 	}
 
 }
